@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+    min-width: 40rem;
+}
+
+input {
+    padding: 1rem;
+    border: 2px solid #5f9341;
+    width: 100%;
+    line-height: 2rem;
+    margin-bottom: .4rem;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 1rem 2.4rem;
+    background-color: #5f9341;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 1px solid #5f9341;
+    cursor: pointer;
+}
+
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+}
+
+ul {
+    list-style: none;
+    margin: 2rem 0;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+li {
+    padding: .4rem;
+    line-height: 1.4rem;
+}
+
+li a {
+    color: #5f9341;
+    font-size: 1.6rem;
+}
